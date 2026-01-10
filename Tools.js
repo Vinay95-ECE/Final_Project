@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+//tool section
 const toolSchema = new mongoose.Schema({
   ownerPhone: String,
   name: String,
@@ -7,5 +7,6 @@ const toolSchema = new mongoose.Schema({
   rentPerDay: Number,
   specs: String
 });
+
 
 module.exports = mongoose.model("Tool", toolSchema);
