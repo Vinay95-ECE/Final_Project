@@ -7,3 +7,4 @@ const connectDB = async () => {
 
 //this is my database of my project
 module.exports = connectDB;
+
